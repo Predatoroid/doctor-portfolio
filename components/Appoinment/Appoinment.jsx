@@ -8,7 +8,7 @@ const Appoinment = () => {
      <div className="row align-items-center">
       <div className="col-lg-6 ">
        <div className="appoinment-content">
-        <img src="/images/about/profile-1.jpg" alt="" className="img-fluid" />
+        <img src="https://raw.githubusercontent.com/Predatoroid/doctor-portfolio/refs/heads/main/public/images/about/profile-1.jpg" alt="" className="img-fluid" />
         <div className="emergency">
          <h2 className="text-lg"><i className="icofont icofont-phone-circle text-lg"></i>+2-990-770-55</h2>
         </div>

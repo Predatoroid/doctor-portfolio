@@ -24,7 +24,7 @@ const About = () => {
        </div>
       </div>
       <div class="col-12 col-md-6">
-       <img src="/images/about/profile-1.jpg" alt="" class="img-fluid about-img" />
+       <img src="https://raw.githubusercontent.com/Predatoroid/doctor-portfolio/refs/heads/main/public/images/about/profile-1.jpg" alt="" class="img-fluid about-img" />
       </div>
      </div>
     </div>
