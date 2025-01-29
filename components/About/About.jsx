@@ -8,19 +8,34 @@ const About = () => {
      <div class="row">
       <div class="col-12 col-md-8 col-lg-6">
        <div class="d-flex flex-column justify-content-center h-100">
-        <h2 class="about-heading">About Dr. Emily</h2>
+        <h2 className="about-heading">Η Ιατρική πορεία του</h2>
         <p class="about-sub-heading my-2">
-         Dr. Emily Sanchez is a highly skilled and compassionate physician with over 15 years of experience in internal medicine. She obtained her medical degree from Harvard Medical School, where she graduated with honors, showcasing her dedication to academic excellence.
+         Ο Ζήσης Βάνης γεννήθηκε στη Λάρισα το 1990. Το 2009 εισήχθη στη Στρατιωτική Σχολή Αξιωματικών Σωμάτων (ΣΣΑΣ),
+         ολοκληρώνοντας τις σπουδές του το 2015. Μετά την εκπαίδευση στο 401 ΓΣΝΑ, υπηρέτησε στο βαθμό του Υπολοχαγού
+         Ιατρού στη Σάμο, συμμετέχοντας σε πολλές στρατιωτικές ασκήσεις και προσφέροντας ιατρική φροντίδα σε
+         απομακρυσμένα νησιά της περιοχής. Σήμερα υπηρετεί στην Καλαμάτα ως Αξιωματικός Ιατρός υπεύθυνος για το ιατρείο
+         της Στρατιωτικής Μονάδας.
         </p>
-        <p class="about-sub-heading my-2">
-         Dr. Sanchez completed her residency training at Massachusetts General Hospital, one of the nation's top-ranked hospitals, where she honed her clinical expertise and developed a deep understanding of complex medical conditions.
-        </p>
-        <p class="about-sub-heading my-2">
-         Known for her warm bedside manner and empathetic approach, Dr. Sanchez takes the time to listen to her patients' concerns and collaborates with them to develop personalized treatment plans. She believes in the importance of holistic care, addressing not only the physical aspects of illness but also the emotional and psychological well-being of her patients.
-        </p>
-        <p class="about-sub-heading my-2">
-         In her spare time, Dr. Sanchez enjoys hiking in the great outdoors and spending quality time with her family. She brings a genuine passion for healing and a deep sense of compassion to her practice, earning the trust and admiration of her patients and colleagues alike.
-        </p>
+        <h3 className="about-heading">Εξειδίκευση στην Οφθαλμολογία</h3>
+        <li>
+         Η ειδίκευσή του στην Οφθαλμολογία ξεκίνησε στο 401 ΓΣΝΑ και ολοκληρώθηκε στην Α' Πανεπιστημιακή Κλινική του
+         Νοσοκομείου Γεννηματάς, μία από τις κορυφαίες οφθαλμολογικές κλινικές της Ελλάδας. Εκεί απέκτησε εμπειρία σε
+         εξειδικευμένες θεραπείες και χειρουργικές επεμβάσεις, συμμετέχοντας σε εκατοντάδες χειρουργεία.
+        </li>
+        <li>
+         Συμμετείχε στην πρώτη γονιδιακή θεραπεία για τη Μελαγχρωστική Αμφιβληστροειδοπάθεια στην Ελλάδα, υπό τον
+         Καθηγητή κ. Γεωργάλα.
+        </li>
+        <li>
+         Μιλά άπταιστα Αγγλικά και Ισπανικά.
+        </li>
+        <h3 className="about-heading">Διακρίσεις και Μεταπτυχιακές Σπουδές</h3>
+        <li>
+         Συμμετείχε ως ομιλητής σε επιστημονικά συνέδρια και διαγωνισμούς, αποσπώντας διακρίσεις και υποτροφίες.
+        </li>
+        <li>
+         Είναι κάτοχος μεταπτυχιακού τίτλου στην "Ιατρική Απεικόνιση στην Οφθαλμολογία" με βαθμό 9,5.
+        </li>
        </div>
       </div>
       <div class="col-12 col-md-6">
