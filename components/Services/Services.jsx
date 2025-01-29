@@ -8,9 +8,9 @@ const Services = () => {
      <div className="row justify-content-center">
       <div className="col-lg-7 text-center">
        <div className="section-title">
-        <h2>Services</h2>
+        <h2>Υπηρεσίες</h2>
         <div className="divider mx-auto my-4"></div>
-        <p>Comprehensive Healthcare Services at Dr. Emily Sanchez's Clinic</p>
+        <p>Ανακαλύψτε τις υπηρεσίες του Οφθαλμολογικού Ιατρείου του Χειρουργού Οφθαλμίατρου Ζήση Βάνη στην Καλαμάτα</p>
        </div>
       </div>
      </div>
@@ -20,11 +20,47 @@ const Services = () => {
        <div className="service-item mb-4">
         <div className="icon d-flex align-items-center">
          <i className="icofont icofont-laboratory text-lg"></i>
-         <h4 className="mt-3 mb-3">Physical Examination</h4>
+         <h4 className="mt-3 mb-3">Βασικός Οφθαλμολογικός Έλεγχος</h4>
         </div>
 
         <div className="content">
-         <p className="mb-4">Health assessments tailored to individual needs, including vital signs monitoring</p>
+         <li>Διαθλαστικός έλεγχος (μυωπία, υπερμετρωπία, αστιγματισμός, πρεσβυωπία)</li>
+         <li>Παιδοφθαλμολογικός έλεγχος</li>
+         <li>Προσχολικός έλεγχος</li>
+         <li>Εξέταση για δίπλωμα οδήγησης</li>
+         <li>Θεραπεία ξηροφθαλμίας</li>
+         <li>Εφαρμογή φακών επαφής</li>
+        </div>
+       </div>
+      </div>
+      <div className="col-lg-4 col-md-6 col-sm-6">
+       <div className="service-item mb-4">
+        <div className="icon d-flex align-items-center">
+         <i className="icofont icofont-laboratory text-lg"></i>
+         <h4 className="mt-3 mb-3">Εξειδικευμένες Οφθαλμολογικές Εξετάσεις</h4>
+        </div>
+
+        <div className="content">
+         <li>Βυθοσκόπηση</li>
+         <li>Μέτρηση ενδοφθάλμιας πίεσης</li>
+         <li>Έλεγχος καταρράκτη και προεγχειρητική εκτίμηση</li>
+         <li>Διάγνωση παθήσεων ωχράς κηλίδας</li>
+         <li>Παρακολούθηση παθήσεων αμφιβληστροειδούς</li>
+        </div>
+       </div>
+      </div>
+      
+      <div className="col-lg-4 col-md-6 col-sm-6">
+       <div className="service-item mb-4">
+        <div className="icon d-flex align-items-center">
+         <i className="icofont icofont-laboratory text-lg"></i>
+         <h4 className="mt-3 mb-3">Εξειδικευμένος Διαγνωστικός Έλεγχος</h4>
+        </div>
+
+        <div className="content">
+         <li>Βυθοσκόπηση (διάγνωση και παρακολούθηση παθήσεων όπως διαβητική αμφιβληστροειδοπάθεια)</li>
+         <li>Διάγνωση παθήσεων ωχράς κηλίδας (AMD, μεμβράνες)</li>
+         <li>Παρακολούθηση παθήσεων αμφιβληστροειδούς (κληρονομικές/εκφυλιστικές)</li>
         </div>
        </div>
       </div>
@@ -33,10 +69,12 @@ const Services = () => {
        <div className="service-item mb-4">
         <div className="icon d-flex align-items-center">
          <i className="icofont icofont-heart-beat-alt text-lg"></i>
-         <h4 className="mt-3 mb-3">Care and Wellness</h4>
+         <h4 className="mt-3 mb-3">Διαχείριση Ασθενειών</h4>
         </div>
         <div className="content">
-         <p className="mb-4"> Preventive care plans to promote overall health and well-being, including vaccinations</p>
+         <li>Επείγοντα περιστατικά</li>
+         <li>Επείγοντα οφθαλμολογικά περιστατικά (διάγνωση και αντιμετώπιση ξένων σωμάτων, τραυμάτων, λοιμώξεων, φλεγμονών κ.ά.)</li>
+         <li>Παρακολούθηση παθήσεων αμφιβληστροειδούς</li>
         </div>
        </div>
       </div>
@@ -45,48 +83,27 @@ const Services = () => {
        <div className="service-item mb-4">
         <div className="icon d-flex align-items-center">
          <i className="icofont icofont-tooth text-lg"></i>
-         <h4 className="mt-3 mb-3">Disease Management</h4>
+         <h4 className="mt-3 mb-3">Φαρμακευτική Αγωγή</h4>
         </div>
         <div className="content">
-         <p className="mb-4">Treatment plans for managing chronic conditions such as diabetes, hypertension, asthma, and arthritis</p>
+         <li>Συνταγογράφηση γυαλιών οράσεως</li>
+         <li>Συνταγογράφηση φαρμάκων</li>
         </div>
        </div>
       </div>
-
 
       <div className="col-lg-4 col-md-6 col-sm-6">
        <div className="service-item mb-4">
         <div className="icon d-flex align-items-center">
          <i className="icofont icofont-crutch text-lg"></i>
-         <h4 className="mt-3 mb-3">Medication</h4>
+         <h4 className="mt-3 mb-3">Γενικός Διαγνωστικός Έλεγχος</h4>
         </div>
 
         <div className="content">
-         <p className="mb-4">Personalized medication management plans to ensure safe and effective use of prescription medications</p>
-        </div>
-       </div>
-      </div>
-
-      <div className="col-lg-4 col-md-6 col-sm-6">
-       <div className="service-item mb-4">
-        <div className="icon d-flex align-items-center">
-         <i className="icofont icofont-brain-alt text-lg"></i>
-         <h4 className="mt-3 mb-3">Diagnostic Testing</h4>
-        </div>
-        <div className="content">
-         <p className="mb-4"> In-house diagnostic testing services, including laboratory tests, imaging studies (X-rays, ultrasounds)</p>
-        </div>
-       </div>
-      </div>
-
-      <div className="col-lg-4 col-md-6 col-sm-6">
-       <div className="service-item mb-4">
-        <div className="icon d-flex align-items-center">
-         <i className="icofont icofont-dna-alt-1 text-lg"></i>
-         <h4 className="mt-3 mb-3">Nutritional Guidance</h4>
-        </div>
-        <div className="content">
-         <p className="mb-4">Personalized dietary assessments and nutritional counseling to support optimal health and manage</p>
+         <li>Διαθλαστικός έλεγχος</li>
+         <li>Μέτρηση ενδοφθάλμιας πίεσης</li>
+         <li>Έλεγχος καταρράκτη και προεγχειρητική εκτίμηση</li>
+         <li>Παιδοφθαλμολογικός έλεγχος</li>
         </div>
        </div>
       </div>

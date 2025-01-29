@@ -12,19 +12,20 @@ const Features = () => {
          <div className="feature-icon mb-4">
           <i className="icofont icofont-surgeon-alt"></i>
          </div>
-         <span>24 Hours Service</span>
-         <h4 className="mb-3">Online Appoinment</h4>
-         <p className="mb-4">We've implemented the principle of family medicine, ensuring continuous care and support for you and your loved ones.</p>
-         <a href="appoinment.html" className="btn btn-main btn-round-full">Make a appoinment</a>
+         <span>Υπηρεσία 24 ωρών</span>
+         <h4 className="mb-3">Γιατί να Επιλέξετε το Ιατρείο μας;</h4>
+         <p className="mb-4">Ο Ζήσης Βάνης, Χειρουργός Οφθαλμίατρος και Στρατιωτικός Ιατρός, διαθέτει πολυετή εμπειρία στη διάγνωση, θεραπεία και χειρουργική αντιμετώπιση οφθαλμικών παθήσεων. Από τις απλές διαθλαστικές διαταραχές έως τις εξειδικευμένες επεμβάσεις, εγγυόμαστε την καλύτερη δυνατή φροντίδα.</p>
+         <a href="appoinment.html" className="btn btn-main btn-round-full">ΚΛΕΙΣΤΕ ΡΑΝΤΕΒΟΥ</a>
         </div>
 
         <div className="feature-item mb-5 mb-lg-0">
          <div className="feature-icon mb-4">
           <i className="icofont icofont-ui-clock"></i>
          </div>
-         <span>Timing schedule</span>
-         <h4 className="mb-3">Working Hours</h4>
+         <span>Χρονοδιάγραμμα</span>
+         <h4 className="mb-3">Ώρες Εργασίας</h4>
          <ul className="w-hours list-unstyled">
+          {/* TODO-fdim: change working hours */}
           <li className="d-flex justify-content-between">Sun - Wed : <span>7:00 - 18:00</span></li>
           <li className="d-flex justify-content-between">Thu - Fri : <span>8:00 - 18:00</span></li>
           <li className="d-flex justify-content-between">Sat - sun : <span>9:00 - 18:00</span></li>
@@ -35,9 +36,9 @@ const Features = () => {
          <div className="feature-icon mb-4">
           <i className="icofont icofont-support"></i>
          </div>
-         <span>Emegency Cases</span>
-         <h4 className="mb-3">2-990-770-5550</h4>
-         <p>Experience all-time support for emergencies. We embrace the principle of family medicine, ensuring continuous care. Connect with us for any urgent need.</p>
+         <span>CTA(Call-to-Action)</span>
+         <h4 className="mb-3">+30 698 338 2674</h4>
+         <p>Κλείστε τώρα το ραντεβού σας και δείτε τη διαφορά στην όρασή σας!</p>
         </div>
        </div>
       </div>
