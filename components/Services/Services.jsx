@@ -19,7 +19,7 @@ const Services = () => {
       <div className="col-lg-4 col-md-6 col-sm-6">
        <div className="service-item mb-4">
         <div className="icon d-flex align-items-center">
-         <i className="icofont icofont-laboratory text-lg"></i>
+         <i className="icofont icofont-eye text-lg"></i>
          <h4 className="mt-3 mb-3">Βασικός Οφθαλμολογικός Έλεγχος</h4>
         </div>
 
@@ -36,7 +36,7 @@ const Services = () => {
       <div className="col-lg-4 col-md-6 col-sm-6">
        <div className="service-item mb-4">
         <div className="icon d-flex align-items-center">
-         <i className="icofont icofont-laboratory text-lg"></i>
+         <i className="icofont icofont-hospital text-lg"></i>
          <h4 className="mt-3 mb-3">Εξειδικευμένες Οφθαλμολογικές Εξετάσεις</h4>
         </div>
 
@@ -53,12 +53,12 @@ const Services = () => {
       <div className="col-lg-4 col-md-6 col-sm-6">
        <div className="service-item mb-4">
         <div className="icon d-flex align-items-center">
-         <i className="icofont icofont-laboratory text-lg"></i>
+         <i className="icofont icofont-microscope-alt text-lg"></i>
          <h4 className="mt-3 mb-3">Εξειδικευμένος Διαγνωστικός Έλεγχος</h4>
         </div>
 
         <div className="content">
-         <li>Βυθοσκόπηση (διάγνωση και παρακολούθηση παθήσεων όπως διαβητική αμφιβληστροειδοπάθεια)</li>
+        <li>Βυθοσκόπηση (διάγνωση και παρακολούθηση παθήσεων όπως διαβητική αμφιβληστροειδοπάθεια)</li>
          <li>Διάγνωση παθήσεων ωχράς κηλίδας (AMD, μεμβράνες)</li>
          <li>Παρακολούθηση παθήσεων αμφιβληστροειδούς (κληρονομικές/εκφυλιστικές)</li>
         </div>
@@ -68,7 +68,7 @@ const Services = () => {
       <div className="col-lg-4 col-md-6 col-sm-6">
        <div className="service-item mb-4">
         <div className="icon d-flex align-items-center">
-         <i className="icofont icofont-heart-beat-alt text-lg"></i>
+         <i className="icofont icofont-doctor-alt text-lg"></i>
          <h4 className="mt-3 mb-3">Διαχείριση Ασθενειών</h4>
         </div>
         <div className="content">
@@ -82,7 +82,7 @@ const Services = () => {
       <div className="col-lg-4 col-md-6 col-sm-6">
        <div className="service-item mb-4">
         <div className="icon d-flex align-items-center">
-         <i className="icofont icofont-tooth text-lg"></i>
+         <i className="icofont icofont-pills text-lg"></i>
          <h4 className="mt-3 mb-3">Φαρμακευτική Αγωγή</h4>
         </div>
         <div className="content">
@@ -95,12 +95,12 @@ const Services = () => {
       <div className="col-lg-4 col-md-6 col-sm-6">
        <div className="service-item mb-4">
         <div className="icon d-flex align-items-center">
-         <i className="icofont icofont-crutch text-lg"></i>
+         <i className="icofont icofont-stethoscope-alt text-lg"></i>
          <h4 className="mt-3 mb-3">Γενικός Διαγνωστικός Έλεγχος</h4>
         </div>
 
         <div className="content">
-         <li>Διαθλαστικός έλεγχος</li>
+        <li>Διαθλαστικός έλεγχος</li>
          <li>Μέτρηση ενδοφθάλμιας πίεσης</li>
          <li>Έλεγχος καταρράκτη και προεγχειρητική εκτίμηση</li>
          <li>Παιδοφθαλμολογικός έλεγχος</li>

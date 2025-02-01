@@ -78,10 +78,10 @@ p {
   background: #3364db;
 }
 
-.navbar-toggler {
-  margin-left: auto; /* Pushes the button to the right */
-  margin-right: auto; /* Pushes the button to the right */
-}
+/*.navbar-toggler {*/
+/*  margin-left: auto; !* Pushes the button to the right *!*/
+/*  margin-right: auto; !* Pushes the button to the right *!*/
+/*}*/
 
 input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
   box-shadow: none;
@@ -248,7 +248,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .section-sm {
@@ -356,7 +356,7 @@ a:focus {
 
 @media (max-width: 480px) {
   h2, .h2 {
-    font-size: 1.3rem;
+    font-size: 1.9rem;
     line-height: 36px;
   }
 }
@@ -705,6 +705,30 @@ a:focus {
   border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
 }
 
+@media (max-width: 992px) {
+  .feature-item {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .feature-item {
+    padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .feature-item {
+    padding: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .feature-item {
+    padding: 0;
+  }
+}
+
 .w-hours li {
   padding: 6px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
@@ -743,7 +767,7 @@ a:focus {
 }
 
 .service {
-  padding-top: 180px;
+  /*padding-top: 180px;*/
 }
 
 .service .service-item {

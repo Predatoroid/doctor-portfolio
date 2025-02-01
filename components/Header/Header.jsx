@@ -24,7 +24,7 @@ const Header = () => {
       <div className={`collapse navbar-collapse ${isNavOpen ? 'show' : ''}`} id="navbarmain">
        <ul className="navbar-nav ml-auto">
         <li className="nav-item active">
-         <a className="nav-link" href="#heroBanner">Αρχική</a>
+         <a className="nav-link" href="#">Αρχική</a>
         </li>
         <li className="nav-item"><a className="nav-link" href="#about">Βιογραφικό</a></li>
         <li className="nav-item"><a className="nav-link" href="#services">Υπηρεσίες</a></li>

@@ -18,7 +18,7 @@ const Counter = () => {
         <div className="counter-stat">
          <i className="icofont icofont-flag"></i>
          <span className="h3">100</span>+
-         <p>Surgery Comepleted</p>
+         <p>Surgery Completed</p>
         </div>
        </div>
 

@@ -14,7 +14,7 @@ const HeroBanner = () => {
 
                 <p>Το Οφθαλμολογικό Ιατρείο του κου Ζήση Βάνη βρίσκεται στο κέντρο της Καλαμάτας, προσφέροντας υψηλού επιπέδου υπηρεσίες για την υγεία των ματιών σας. Με εξειδικευμένη εκπαίδευση, σύγχρονο εξοπλισμό και φιλική προσέγγιση, παρέχουμε λύσεις που καλύπτουν τις ανάγκες κάθε ασθενούς.</p>
                 <div className="btn-container ">
-                  <a href="appoinment.html" target="_blank" className="btn btn-main-2 btn-icon btn-round-full">ΚΛΕΙΣΤΕ ΡΑΝΤΕΒΟΥ
+                  <a href="#appoinment" className="btn btn-main-2 btn-icon btn-round-full">ΚΛΕΙΣΤΕ ΡΑΝΤΕΒΟΥ
                     <i className="icofont icofont-simple-right ml-2  "></i></a>
                 </div>
               </div>
