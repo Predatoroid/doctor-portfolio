@@ -8,11 +8,11 @@ const HeroBanner = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12 col-xl-7">
               <div className="block">
-                <div className="divider mb-3"></div>
+                {/*<div className="divider mb-3"></div>*/}
                 {/*<span className="text-uppercase text-sm letter-spacing ">Professional Care For Your Health</span>*/}
-                <h1 className="mb-3 mt-3">Χειρουργός Οφθαλμίατρος Καλαμάτα – Ζήσης Δ. Βάνης</h1>
+                <h1 className="mb-3">Χειρουργός Οφθαλμίατρος Καλαμάτα – Ζήσης Δ. Βάνης</h1>
 
-                <p className="mb-4 pr-5">Το Οφθαλμολογικό Ιατρείο του κου Ζήση Βάνη βρίσκεται στο κέντρο της Καλαμάτας, προσφέροντας υψηλού επιπέδου υπηρεσίες για την υγεία των ματιών σας. Με εξειδικευμένη εκπαίδευση, σύγχρονο εξοπλισμό και φιλική προσέγγιση, παρέχουμε λύσεις που καλύπτουν τις ανάγκες κάθε ασθενούς.</p>
+                <p>Το Οφθαλμολογικό Ιατρείο του κου Ζήση Βάνη βρίσκεται στο κέντρο της Καλαμάτας, προσφέροντας υψηλού επιπέδου υπηρεσίες για την υγεία των ματιών σας. Με εξειδικευμένη εκπαίδευση, σύγχρονο εξοπλισμό και φιλική προσέγγιση, παρέχουμε λύσεις που καλύπτουν τις ανάγκες κάθε ασθενούς.</p>
                 <div className="btn-container ">
                   <a href="appoinment.html" target="_blank" className="btn btn-main-2 btn-icon btn-round-full">ΚΛΕΙΣΤΕ ΡΑΝΤΕΒΟΥ
                     <i className="icofont icofont-simple-right ml-2  "></i></a>

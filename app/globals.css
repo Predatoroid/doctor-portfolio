@@ -78,6 +78,11 @@ p {
   background: #3364db;
 }
 
+.navbar-toggler {
+  margin-left: auto; /* Pushes the button to the right */
+  margin-right: auto; /* Pushes the button to the right */
+}
+
 input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
   box-shadow: none;
   height: 45px;
@@ -433,8 +438,9 @@ a:focus {
   font-size: 30px;
   font-weight: bold;
   color:#444444;
+  flex: 1 1 auto; /* Allows it to shrink and wrap */
+  white-space: normal; /* Ensures text wraps */
 }
-
 
 .dropdown .dropdown-menu {
   position: absolute;
@@ -508,6 +514,7 @@ a:focus {
   background: url("https://raw.githubusercontent.com/Predatoroid/doctor-portfolio/refs/heads/main/public/images/bg/slider-bg-1.jpg") no-repeat;
   background-size: cover;
   min-height: 550px;
+  text-align: justify;
 }
 
 .banner .block {
@@ -540,10 +547,47 @@ a:focus {
   background: #3874ff;
 }
 
+@media (max-width: 992px) {
+  .banner .block {
+    padding: 20px 0px 10px;
+  }
+
+  .banner .block h1 {
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+  }
+
+  .banner {
+    background: #fff !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner .block {
+    padding: 20px 0px 90px;
+  }
+
+  .banner .block h1 {
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+  }
+
+  .banner {
+    background: #fff !important;
+  }
+}
+
 @media (max-width: 480px) {
+  .banner .block {
+    padding: 40px 0px 80px;
+  }
+
   .banner .block h1 {
     font-size: 38px;
     line-height: 50px;
+    text-align: center;
   }
   .banner {
     min-height: 450px;
@@ -552,29 +596,17 @@ a:focus {
 }
 
 @media (max-width: 400px) {
+  .banner .block {
+    padding: 60px 0 80px;
+  }
+
   .banner .block h1 {
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 38px;
+    line-height:40px;
+    text-align: center;
   }
   .banner {
     min-height: 450px;
-    background: #fff !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .banner .block h1 {
-    font-size: 56px;
-    line-height: 70px;
-  }
-  .banner {
-    background: #fff !important;
-  }
-}
-
-@media (max-width: 992px) {
-  .banner {
-    background: #fff !important;
   }
 }
 
