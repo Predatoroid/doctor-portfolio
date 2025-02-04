@@ -12,8 +12,8 @@ const Header = () => {
    <header>
     <nav className="navbar navbar-expand-lg navigation fixed-top bg-light" id="navbar">
      <div className="container">
-      <a className="navbar-brand d-flex align-items-center" href="/">
-       <img src="images/logo.png" alt="" className="img-fluid" />
+      <a className="navbar-brand d-flex align-items-center" href="#">
+       <img src="/images/logo.png" alt="" className="img-fluid" />
        <p className='logo-title mb-0 p-0'>Ζήσης Δ. Βάνης MD, MSc</p>
       </a>
 
@@ -26,9 +26,9 @@ const Header = () => {
         <li className="nav-item active">
          <a className="nav-link" href="#">Αρχική</a>
         </li>
-        <li className="nav-item"><a className="nav-link" href="#about">Βιογραφικό</a></li>
-        <li className="nav-item"><a className="nav-link" href="#services">Υπηρεσίες</a></li>
-        <li className="nav-item"><a className="nav-link" href="#appoinment">Επικοινωνία</a></li>
+        <li className="nav-item"><a className="nav-link" href="/#about">Βιογραφικό</a></li>
+        <li className="nav-item"><a className="nav-link" href="/#services">Υπηρεσίες</a></li>
+        <li className="nav-item"><a className="nav-link" href="/#appoinment">Επικοινωνία</a></li>
        </ul>
       </div>
      </div>
