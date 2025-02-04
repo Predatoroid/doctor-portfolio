@@ -30,7 +30,6 @@ export default function RootLayout({ children }) {
       <title>{metadata.title}</title>
       <meta name="description" content={metadata.description}/>
 
-      {/* Open Graph Meta Tags */}
       <meta property="og:title" content={metadata.title}/>
       <meta property="og:description" content={metadata.description}/>
       <meta property="og:image" content={metadata.image}/>

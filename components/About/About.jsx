@@ -3,13 +3,13 @@ import React from 'react'
 const About = () => {
  return (
   <>
-   <section class="section about" id='about'>
-    <div class="container position-relative">
-     <div class="row">
-      <div class="col-12 col-md-8 col-lg-6">
-       <div class="d-flex flex-column justify-content-center h-100">
+   <section className="section about" id='about'>
+    <div className="container position-relative">
+     <div className="row">
+      <div className="col-12 col-md-8 col-lg-6">
+       <div className="d-flex flex-column justify-content-center h-100">
         <h2 className="about-heading">Η Ιατρική πορεία του</h2>
-        <p class="about-sub-heading my-2">
+        <p className="about-sub-heading my-2">
          Ο Ζήσης Βάνης γεννήθηκε στη Λάρισα το 1990. Το 2009 εισήχθη στη Στρατιωτική Σχολή Αξιωματικών Σωμάτων (ΣΣΑΣ),
          ολοκληρώνοντας τις σπουδές του το 2015. Μετά την εκπαίδευση στο 401 ΓΣΝΑ, υπηρέτησε στο βαθμό του Υπολοχαγού
          Ιατρού στη Σάμο, συμμετέχοντας σε πολλές στρατιωτικές ασκήσεις και προσφέροντας ιατρική φροντίδα σε
@@ -38,8 +38,8 @@ const About = () => {
         </li>
        </div>
       </div>
-      <div class="col-12 col-md-6">
-       <img src="https://raw.githubusercontent.com/Predatoroid/doctor-portfolio/refs/heads/main/public/images/about/profile-1.jpg" alt="" class="img-fluid about-img" />
+      <div className="col-12 col-md-6">
+       <img src="https://raw.githubusercontent.com/Predatoroid/doctor-portfolio/refs/heads/main/public/images/about/profile-1.jpg" alt="" className="img-fluid about-img" />
       </div>
      </div>
     </div>
