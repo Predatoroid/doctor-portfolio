@@ -28,6 +28,7 @@ const Header = () => {
         </li>
         <li className="nav-item"><a className="nav-link" href="/#about">Βιογραφικό</a></li>
         <li className="nav-item"><a className="nav-link" href="/#services">Υπηρεσίες</a></li>
+        <li className="nav-item"><a className="nav-link" href="/#gallery">Χώρος</a></li>
         <li className="nav-item"><a className="nav-link" href="/#appoinment">Επικοινωνία</a></li>
        </ul>
       </div>

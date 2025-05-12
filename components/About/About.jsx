@@ -39,7 +39,7 @@ const About = () => {
        </div>
       </div>
       <div className="col-12 col-md-6">
-       <img src="https://raw.githubusercontent.com/Predatoroid/doctor-portfolio/refs/heads/main/public/images/about/profile-1.jpg" alt="" className="img-fluid about-img" />
+       <img src="/images/about/DSC_0639_fixed.jpg" alt="" className="img-fluid about-img" />
       </div>
      </div>
     </div>

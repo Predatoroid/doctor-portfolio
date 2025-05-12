@@ -6,6 +6,7 @@ import Features from "@/components/Features/Features";
 import HeroBanner from "@/components/HeroBanner/HeroBanner";
 import Services from "@/components/Services/Services";
 import Testimonial from "@/components/Testimonial/Testimonial";
+import Gallery from "@/components/Gallery";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       {/*<Counter />*/}
       <Services />
+      <Gallery />
       <Appoinment />
       {/* <Testimonial />
       <Clients /> */}
