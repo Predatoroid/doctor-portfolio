@@ -3,7 +3,7 @@ import React from 'react'
 const Appoinment = () => {
  return (
   <>
-   <section className="section appoinment" id='appoinment'>
+   <section className="section appoinment gray-bg" id='appoinment'>
     <div className="container">
      <div className="row align-items-center">
       <div className="col-lg-6 ">

@@ -247,6 +247,10 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   background-repeat: repeat-x;
 }
 
+.bg-lightgray {
+  background: linear-gradient(to top, rgb(120, 120, 120), rgb(84, 84, 84), rgb(50, 50, 50));
+}
+
 .section {
   padding: 50px 0;
   scroll-margin-top: 100px;
@@ -402,6 +406,13 @@ a:focus {
   margin-top: 100px;
 }
 
+.navbar {
+  background: rgba(84, 84, 84, 0.7); /* or use theme.body with opacity */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(51, 100, 219, 0.25);
+}
+
 #navbarmain {
   padding: 20px 0px;
 }
@@ -409,7 +420,7 @@ a:focus {
 #navbarmain .nav-link {
   font-weight: 600;
   padding: 10px 15px;
-  color: #444444;
+  color: #f5f5f5;
   font-family: "Exo", sans-serif;
   text-transform: capitalize;
   font-size: 16px;
@@ -438,7 +449,7 @@ a:focus {
 .navbar-brand .logo-title{
   font-size: 30px;
   font-weight: bold;
-  color:#444444;
+  color:#f5f5f5;
   flex: 1 1 auto; /* Allows it to shrink and wrap */
   white-space: normal; /* Ensures text wraps */
 }
@@ -671,6 +682,7 @@ a:focus {
 
 .features {
   margin-top: -70px;
+  background: rgba(140, 140, 140, 0.4);
 }
 
 .feature-item {
@@ -679,7 +691,7 @@ a:focus {
   padding: 40px 30px;
   background-color: #fff;
   border-radius: 15px 15px 15px 15px;
-  box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+  box-shadow: 0px 8px 24px 0px rgba(51, 100, 219, 0.25);
 }
 
 .feature-item .feature-icon i {
@@ -1107,6 +1119,10 @@ a:focus {
   width: 100%;
 }
 
+.gallery {
+  background-color: rgba(140, 140, 140, 0.4);
+}
+
 .social-icons li {
   margin: 0 6px;
 }
@@ -1311,6 +1327,21 @@ a:focus {
   margin-top: 35px;
 }
 
+.about {
+  background: rgba(140, 140, 140, 0.4);
+}
+
+.about p,
+.about h3,
+.about h4,
+.about li
+{
+  color: #000000  
+}
+.about h2{
+  color: #3364db;
+}
+
 .author-about {
   margin-top: 40px;
 }
@@ -1479,6 +1510,7 @@ a:focus {
 
 .footer {
   padding-bottom: 10px;
+  background-color: rgba(140, 140, 140, 0.4);
 }
 
 .footer .copyright a {
