@@ -12,7 +12,6 @@ const Features = () => {
          <div className="feature-icon mb-4">
           <i className="icofont icofont-surgeon-alt"></i>
          </div>
-         <span>Υπηρεσία 24 ωρών</span>
          <h4 className="mb-3">Γιατί να Επιλέξετε το Ιατρείο μας;</h4>
          <p className="mb-4">Ο Ζήσης Βάνης, Χειρουργός Οφθαλμίατρος και Στρατιωτικός Ιατρός, διαθέτει πολυετή εμπειρία στη διάγνωση, θεραπεία και χειρουργική αντιμετώπιση οφθαλμικών παθήσεων. Από τις απλές διαθλαστικές διαταραχές έως τις εξειδικευμένες επεμβάσεις, εγγυόμαστε την καλύτερη δυνατή φροντίδα.</p>
          {/*<a href="appoinment.html" className="btn btn-main btn-round-full">ΚΛΕΙΣΤΕ ΡΑΝΤΕΒΟΥ</a>*/}
@@ -22,8 +21,7 @@ const Features = () => {
          <div className="feature-icon mb-4">
           <i className="icofont icofont-ui-clock"></i>
          </div>
-         <span>Χρονοδιάγραμμα</span>
-         <h4 className="mb-3">Ώρες Εργασίας</h4>
+         <h4 className="mb-3">Ώρες Λειτουργίας Ιατρείου</h4>
          <ul className="w-hours list-unstyled">
           {/* TODO-fdim: change working hours */}
           <li className="d-flex justify-content-between">Δευ - Παρ : <span>16:00 - 21:00</span></li>

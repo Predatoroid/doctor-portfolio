@@ -16,9 +16,9 @@ const Footer = () => {
        <div className="col-lg-6">
         <div className="widget float-right mb-5 mb-lg-0">
          <ul className="list-inline footer-socials mt-4">
-          <li className="list-inline-item"><a href="#"><i className="icofont icofont-facebook"></i></a></li>
-          <li className="list-inline-item"><a href="#"><i className="icofont icofont-twitter"></i></a></li>
-          <li className="list-inline-item"><a href="#"><i className="icofont icofont-linkedin"></i></a></li>
+          <li className="list-inline-item"><a href="https://www.facebook.com/profile.php?id=61570175457116" target="_blank" rel="noopener noreferrer"><i className="icofont icofont-facebook"></i></a></li>
+          <li className="list-inline-item"><a href="https://www.instagram.com/ofthalmiatros_vanis_zisis" target="_blank" rel="noopener noreferrer"><i className="icofont icofont-instagram"></i></a></li>
+          <li className="list-inline-item"><a href="https://www.linkedin.com/in/zisis-vanis-bbb784151" target="_blank" rel="noopener noreferrer"><i className="icofont icofont-linkedin"></i></a></li>
          </ul>
         </div>
        </div>

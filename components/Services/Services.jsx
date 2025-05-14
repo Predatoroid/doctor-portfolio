@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image";
 
 const Services = () => {
  return (
@@ -41,53 +42,11 @@ const Services = () => {
         </div>
 
         <div className="content">
-         <li>Βυθοσκόπηση</li>
+         <li>Βυθοσκόπηση (διάγνωση και παρακολούθηση παθήσεων όπως διαβητική αμφιβληστροειδοπάθεια)</li>
          <li>Μέτρηση ενδοφθάλμιας πίεσης</li>
          <li>Έλεγχος καταρράκτη και προεγχειρητική εκτίμηση</li>
-         <li>Διάγνωση παθήσεων ωχράς κηλίδας</li>
-         <li>Παρακολούθηση παθήσεων αμφιβληστροειδούς</li>
-        </div>
-       </div>
-      </div>
-      
-      <div className="col-lg-4 col-md-6 col-sm-6">
-       <div className="service-item mb-4">
-        <div className="icon d-flex align-items-center">
-         <i className="icofont icofont-microscope-alt text-lg"></i>
-         <h4 className="mt-3 mb-3">Εξειδικευμένος Διαγνωστικός Έλεγχος</h4>
-        </div>
-
-        <div className="content">
-        <li>Βυθοσκόπηση (διάγνωση και παρακολούθηση παθήσεων όπως διαβητική αμφιβληστροειδοπάθεια)</li>
          <li>Διάγνωση παθήσεων ωχράς κηλίδας (AMD, μεμβράνες)</li>
          <li>Παρακολούθηση παθήσεων αμφιβληστροειδούς (κληρονομικές/εκφυλιστικές)</li>
-        </div>
-       </div>
-      </div>
-
-      <div className="col-lg-4 col-md-6 col-sm-6">
-       <div className="service-item mb-4">
-        <div className="icon d-flex align-items-center">
-         <i className="icofont icofont-doctor-alt text-lg"></i>
-         <h4 className="mt-3 mb-3">Διαχείριση Ασθενειών</h4>
-        </div>
-        <div className="content">
-         <li>Επείγοντα περιστατικά</li>
-         <li>Επείγοντα οφθαλμολογικά περιστατικά (διάγνωση και αντιμετώπιση ξένων σωμάτων, τραυμάτων, λοιμώξεων, φλεγμονών κ.ά.)</li>
-         <li>Παρακολούθηση παθήσεων αμφιβληστροειδούς</li>
-        </div>
-       </div>
-      </div>
-
-      <div className="col-lg-4 col-md-6 col-sm-6">
-       <div className="service-item mb-4">
-        <div className="icon d-flex align-items-center">
-         <i className="icofont icofont-pills text-lg"></i>
-         <h4 className="mt-3 mb-3">Φαρμακευτική Αγωγή</h4>
-        </div>
-        <div className="content">
-         <li>Συνταγογράφηση γυαλιών οράσεως</li>
-         <li>Συνταγογράφηση φαρμάκων</li>
         </div>
        </div>
       </div>
@@ -100,13 +59,60 @@ const Services = () => {
         </div>
 
         <div className="content">
-        <li>Διαθλαστικός έλεγχος</li>
-         <li>Μέτρηση ενδοφθάλμιας πίεσης</li>
-         <li>Έλεγχος καταρράκτη και προεγχειρητική εκτίμηση</li>
-         <li>Παιδοφθαλμολογικός έλεγχος</li>
+         <Image
+             src='/images/gallery/DSC_0477_fixed.jpg'
+             alt={`General Check-up`}
+             width={300}
+             height={200}
+             className="img-fluid rounded shadow-sm cursor-pointer"
+         />
         </div>
        </div>
       </div>
+
+      <div className="col-lg-4 col-md-6 col-sm-6">
+       <div className="service-item mb-4">
+        <div className="icon d-flex align-items-center">
+         <i className="icofont icofont-kid text-lg"></i>
+         <h4 className="mt-3 mb-3">Παιδοφθαλμολογικός Έλεγχος</h4>
+        </div>
+        <div className="content">
+         <li>Προσχολικός έλεγχος</li>
+         <li>Βυθοσκόπηση</li>
+         <li>Συνταγογράφηση γυαλιών οράσεως</li>
+         <li>Έλεγχος χρωματικής αντίληψης</li>
+         <li>Έλεγχος στραβισμού</li>
+        </div>
+       </div>
+      </div>
+
+      <div className="col-lg-4 col-md-6 col-sm-6">
+       <div className="service-item mb-4">
+        <div className="icon d-flex align-items-center">
+         <i className="icofont icofont-microscope-alt text-lg"></i>
+         <h4 className="mt-3 mb-3">Χειρουργικές Επεμβάσεις</h4>
+        </div>
+
+        <div className="content">
+         <li>Χειρουργική καταρράκτη με premium ενδοφακούς</li>
+         <li>Λέιζερ μυωπίας - αστιγματισμού - υπερμετρωπίας</li>
+         <li>Αφαίρεση πτερυγίου - χαλαζίου</li>
+         <li>Ενδοϋαλοειδικές ενέσεις</li>
+        </div>
+       </div>
+      </div>
+
+      <div className="col-lg-4 col-md-6 col-sm-6">
+       <div className="service-item mb-4">
+        <div className="icon d-flex align-items-center">
+         <i className="icofont icofont-doctor-alt text-lg"></i>
+         <h4 className="mt-3 mb-3">Επείγοντα Περιστατικά</h4>
+        </div>
+        <div className="content">
+        </div>
+       </div>
+      </div>
+
      </div>
     </div>
    </section>

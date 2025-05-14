@@ -16,6 +16,7 @@ const images = [
     '/images/gallery/DSC_0633_fixed.jpg',
     '/images/gallery/DSC_0643_fixed.jpg',
     '/images/gallery/DSC_0601_fixed.jpg',
+    '/images/gallery/DSC_0477_fixed.jpg',
 ];
 
 const Gallery = () => {
@@ -35,7 +36,7 @@ const Gallery = () => {
                 <div className="container position-relative">
                     <div className="row justify-content-center">
                         <div className="section-title text-center">
-                            <h2>Ο χώρος του γραφείου</h2>
+                            <h2>Ο χώρος του ιατρείου</h2>
                             <div className="divider mx-auto my-4"></div>
                         </div>
                     </div>
