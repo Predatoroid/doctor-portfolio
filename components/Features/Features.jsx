@@ -9,7 +9,7 @@ const Features = () => {
       <div className="col-lg-12">
        <div className="feature-block d-lg-flex">
         <div className="feature-item mb-5 mb-lg-0">
-         <div className="feature-icon mb-4">
+         <div className="feature-icon mb-0">
           <i className="icofont icofont-surgeon-alt"></i>
          </div>
          <h4 className="mb-3">Γιατί να Επιλέξετε το Ιατρείο μας;</h4>
@@ -18,20 +18,19 @@ const Features = () => {
         </div>
 
         <div className="feature-item mb-5 mb-lg-0">
-         <div className="feature-icon mb-4">
+         <div className="feature-icon mb-0">
           <i className="icofont icofont-ui-clock"></i>
          </div>
          <h4 className="mb-3">Ώρες Λειτουργίας Ιατρείου</h4>
          <ul className="w-hours list-unstyled">
-          {/* TODO-fdim: change working hours */}
-          <li className="d-flex justify-content-between">Δευ - Παρ : <span>16:00 - 21:00</span></li>
-          <li className="d-flex justify-content-between">Σαβ : <span>Κατόπιν ραντεβού</span></li>
-          <li className="d-flex justify-content-between">Κυρ : <span>Κλειστά</span></li>
+          <li className="d-flex justify-content-between align-items-center">Δευ - Παρ : <span>16:00 - 21:00</span></li>
+          <li className="d-flex justify-content-between align-items-center">Σαβ : <span>Κατόπιν ραντεβού</span></li>
+          <li className="d-flex justify-content-between align-items-center">Κυρ : <span>Κλειστά</span></li>
          </ul>
         </div>
 
         <div className="feature-item mb-5 mb-lg-0">
-         <div className="feature-icon mb-4">
+         <div className="feature-icon mb-0">
           <i className="icofont icofont-support"></i>
          </div>
          <span>CTA(Call-to-Action)</span>

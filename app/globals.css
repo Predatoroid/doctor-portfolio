@@ -311,6 +311,10 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   font-size: 3.75rem;
 }
 
+.justify-text {
+  text-align: justify;
+}
+
 .no-spacing {
   letter-spacing: 0px;
 }
@@ -560,6 +564,13 @@ a:focus {
 }
 
 @media (max-width: 992px) {
+  .navbar-brand .img-fluid {
+    width: 100px;
+  }
+  .navbar-brand .logo-title{
+    display: none;
+  }
+  
   .banner .block {
     padding: 20px 0px 10px;
   }
@@ -571,11 +582,20 @@ a:focus {
   }
 
   .banner {
-    background: #fff !important;
+    background: url("/images/bg/slider-bg.jpg") no-repeat;
+    padding-top: 40px;
+    margin-top: -40px;
   }
 }
 
 @media (max-width: 768px) {
+  .navbar-brand .img-fluid {
+    width: 70px;
+  }
+  .navbar-brand .logo-title{
+    display: none;
+  }
+  
   .banner .block {
     padding: 20px 0px 90px;
   }
@@ -587,13 +607,22 @@ a:focus {
   }
 
   .banner {
-    background: #fff !important;
+    background: url("/images/bg/slider-bg.jpg") no-repeat;
+    padding-top: 40px;
+    margin-top: -40px;
   }
 }
 
 @media (max-width: 480px) {
+  .navbar-brand .img-fluid {
+    width: 50px;
+  }
+  .navbar-brand .logo-title{
+    display: none;
+  }
+  
   .banner .block {
-    padding: 40px 0px 80px;
+    padding: 0 0 80px;
   }
 
   .banner .block h1 {
@@ -602,14 +631,23 @@ a:focus {
     text-align: center;
   }
   .banner {
+    background: url("/images/bg/slider-bg.jpg") no-repeat;
     min-height: 450px;
-    background: #fff !important;
+    padding-top: 40px;
+    margin-top: -40px;
   }
 }
 
 @media (max-width: 400px) {
+  .navbar-brand .img-fluid {
+    width: 50px;
+  }
+  .navbar-brand .logo-title{
+    display: none;
+  }
+  
   .banner .block {
-    padding: 60px 0 80px;
+    padding: 0 0 80px;
   }
 
   .banner .block h1 {
@@ -618,7 +656,10 @@ a:focus {
     text-align: center;
   }
   .banner {
+    background: url("/images/bg/slider-bg.jpg") no-repeat;
     min-height: 450px;
+    padding-top: 40px;
+    margin-top: -40px;
   }
 }
 
@@ -687,7 +728,7 @@ a:focus {
 
 .feature-item {
   flex-basis: 33.33%;
-  margin: 0px 10px;
+  margin: 0px 5px;
   padding: 40px 30px;
   background-color: #fff;
   border-radius: 15px 15px 15px 15px;
@@ -706,12 +747,22 @@ a:focus {
   transition: transform 0.5s;
 }
 
+.feature-item span {
+  padding: 10px 10px;
+}
+
 .feature-item h4 {
   color: #444444;
+  padding: 0px 10px;
 }
 
 .feature-item p {
   font-size: 14px;
+  padding: 10px 10px;
+}
+
+.feature-item ul {
+  padding: 10px 10px;
 }
 
 .feature-section.border-top {
